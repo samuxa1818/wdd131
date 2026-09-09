@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --cor-principal: rgb(39, 75, 143);
+    --cor-secundaria: rgb(255, 94, 0);
+    --cor-terceira:rgb(208, 208, 245);
+    --cor-do-texto: white;
+}
+
+.me {
+    width: 200px; 
+    height: auto;
+    float: right;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.flag {
+    width: 150px; 
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-do-texto);
+}
+
+header h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-do-texto);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-size: 25px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+body h1 {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+section {
+    margin-left: 40px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+}
+
+section p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: var(--cor-do-texto);
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.city {
+    clear: both;
+    text-align: center;
+}
+
+aside {
+    margin-right: 40px;
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    background-color: var(--cor-terceira);
+    border-radius: 30px;
+}
+aside h2 {
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: var(--cor-do-texto);
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+aside ul {
+    margin: 35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+footer {
+    background-color: var(--cor-principal);
+    margin-top: 10px;
+    text-align: center;
+    color: var(--cor-do-texto);
+    padding: 30px;
+    font-size: 20px;
+}
