@@ -1,56 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals course page for Samuel Ferreira Araújo, featuring information about me, Feira de Santana, and web development resources.">
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals course page for Samuel Ferreira Araújo, featuring information about me, Feira de Santana, and web development resources.">
+    <meta name="author" content="Samuel Ferreira Araújo">
+
     <title>WDD 131 – Dynamic Web Fundamentals – Samuel Ferreira Araújo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
     <header>
-        <h1><span id="course-title">WDD 131 – Dynamic Web Fundamentals</span></h1>
+        <p id="course-title">WDD 131 – Dynamic Web Fundamentals</p>
 
         <nav>
             <a href="https://www.linkedin.com/">LinkedIn</a>
             <a href="https://byupw.instructure.com/">Canvas</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&id=p6-p7#p6">Scripture</a>
-            <a href="#">Final Project</a>
+            <a href="wwr/index.html">Final Project</a>
         </nav>
     </header>
-    
-    
 
     <main>
         <h1>Samuel Ferreira Araújo</h1>
 
         <section class="card">
-            <h2 class="about">About Me</h2>
-            <img src="images/myphoto.jpg" alt="Samuel's profile photo" class = "me">
-            <p>My name is Samuel. I am a Web Development student, and I enjoy learning how to create beautiful, functional, and accessible websites. I am interested in technology, programming, and developing new skills for my professional future.</p>
+            <h2>About Me</h2>
 
-            <h2 class="city">Feira de Santana, Bahia</h2>
-            <img src="images/fsaflag.jpg" alt="Feira de Santana Flag" class = "flag">
-            <p>Feira de Santana is an important city in the state of Bahia, known as the “Princess of the Backlands.” It stands out for its busy commerce, rich culture, and its role as a connection point between several regions of Northeast Brazil. The city also has traditional celebrations, typical cuisine, and welcoming people.</p>
+            <img src="images/myphoto.jpg" alt="Samuel Ferreira Araújo smiling outdoors" class="me">
+
+            <p>
+                My name is Samuel. I am a Web Development student, and I enjoy learning how to create beautiful,
+                functional, and accessible websites. I am interested in technology, programming, and developing new
+                skills for my professional future.
+            </p>
+
+            <div class="city-content">
+                <h3>Feira de Santana, Bahia</h3>
+
+                <img src="images/fsaflag.jpg" alt="Flag of Feira de Santana, Bahia, Brazil" class="flag">
+
+                <p>
+                    Feira de Santana is an important city in the state of Bahia, known as the “Princess of the
+                    Backlands.” It stands out for its busy commerce, rich culture, and its role as a connection point
+                    between several regions of Northeast Brazil. The city also has traditional celebrations, typical
+                    cuisine, and welcoming people.
+                </p>
+            </div>
         </section>
 
-        <aside>
-            <h2>Web Dev Resorces</h2>
+        <section class="card resources">
+            <h2>Web Dev Resources</h2>
+
             <ul>
-                <li><a href="https://htmlcolorcodes.com/">Color</a></li>
+                <li><a href="https://htmlcolorcodes.com/">HTML Color Codes</a></li>
                 <li><a href="https://codepen.io/editor/pen">CodePen</a></li>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
             </ul>
-        </aside>
+        </section>
     </main>
 
     <footer>
         <p>
-            <span id="currentyear"></span> Samuel Ferreira Araújo — Bahia, Brasil
+            © <span id="currentyear"></span> Samuel Ferreira Araújo — Bahia, Brazil
         </p>
 
         <p id="lastModified"></p>
     </footer>
-
 </body>
+
 </html>
