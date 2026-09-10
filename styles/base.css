@@ -27,12 +27,15 @@ header {
     color: var(--cor-do-texto);
 }
 
+header > p {
+    text-align: center;
+    padding: 28px 20px;
+}
+
 #course-title {
     font-family: "Roboto Slab", Georgia, serif;
     font-size: 1.7rem;
     font-weight: 700;
-    text-align: center;
-    padding: 28px 20px;
 }
 
 header nav {
